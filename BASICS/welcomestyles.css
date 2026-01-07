@@ -9,8 +9,28 @@ b{
 }
 
 body {
-    background-color : blue
+    background-color : black
+}
+p {
+    color : white;
 }
 a{
-    color : black;
+    color : white;
+}
+#box {
+    background-color : blue
+}
+
+.heading {
+    color : red;
+}
+
+#button1 {
+    color : blue;
+}
+#main {
+    color : blue;
+    text-align : center;
+    font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: blue wavy underline;
 }
