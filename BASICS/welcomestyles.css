@@ -1,5 +1,7 @@
 h1 {
-    color : white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight : lighter;
+    color : orange;
 }
 pre{
     color : white
@@ -13,6 +15,8 @@ body {
 }
 p {
     color : white;
+    font-family: 'Courier New', Courier, monospace;
+    font: weight bold;
 }
 a{
     color : white;
@@ -22,7 +26,8 @@ a{
 }
 
 .heading {
-    color : red;
+    color : green;
+    font-weight : light;
 }
 
 #button1 {
