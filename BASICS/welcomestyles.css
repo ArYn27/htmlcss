@@ -28,6 +28,9 @@ a{
 .heading {
     color : green;
     font-weight : light;
+    border-width : 2px;
+    border-color: aliceblue;
+    border-style: dashed;
 }
 
 #button1 {
@@ -38,4 +41,7 @@ a{
     text-align : center;
     font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: blue wavy underline;
+    border-width: 5px;
+    border-style: solid;
+    border-color: antiquewhite;
 }
