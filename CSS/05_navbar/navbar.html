@@ -103,6 +103,41 @@
             border-radius: 5px;
             cursor: pointer;
         }
+
+        .nav3 {
+            background-color: #093040;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .nav3 ul{
+            list-style-type : none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center ;
+            
+        }
+        .nav3 a {
+            text-decoration: none;
+            color : white;
+            padding: 10px;
+            display: block;
+        }
+
+        .nav3 .dropdown-content {
+            display: none;
+
+        }
+        
+        .nav3 .dropdown:hover .dropdown-content{
+            display: block;
+            position : absolute;
+            background-color: #04171f;
+            border-radius: 10px;
+        }
+
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin : 0;
@@ -139,6 +174,24 @@
                 <li><a href = "#">Products</a></li>
             </ul>
             <button class = "login-btn">Login</button> 
+        </nav>
+    </div>
+    <div class = "nav-container">
+        <h2>Variation 3 : horizontal with dropdown</h2>
+        <nav class = "nav3">
+            <ul>
+                <li><a href = "#">Home</a></li>
+                <li class = "dropdown">
+                    <a href = "#">About</a>
+                    <div class = "dropdown-content">
+                        <a href = "#">Our Story</a>
+                        <a href = "#">Team</a>
+                        <a href = "#">Contact</a>
+                    </div>
+                </li>
+                <li><a href = "#">Products</a></li>
+                <button class = "login-btn">Login</button>
+            </ul>
         </nav>
     </div>
 </body>
