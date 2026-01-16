@@ -5,6 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation Bar Variations</title>
     <style>
+
+        .nav2{
+            background-color:#343a40; 
+            width : 200px;
+            padding : 20px;
+            border-radius:10px;
+
+        }
+        .nav2 ul{
+            list-style-type: none;
+            margin : 0;
+            padding :0;
+        }
+
+        .nav2 li{
+            margin-bottom: 12px;
+        }
+
+        .nav2 a{
+            text-decoration: none;
+            color : white;
+            display: block;
+            padding: 10px;
+            width: 100%;
+        }
+
         .nav1{
             background-color: #343434;
             padding : 10px;
@@ -35,10 +61,16 @@
             width: 100%;
             bottom: 0px;
             left: 0px;
+            background-color: #472fff;
+            transform : scaleX(0);
+            transition : transform 0.3s 
+            ease-in-out;
+
         }
 
         .nav1 a:hover::after{
-            
+            transform : scaleX(1);
+
         }
 
         .nav1 .login-btn{
@@ -77,11 +109,14 @@
         </nav>
     </div>
     <div class = "nav-container">
-        <h2>Variation 2: Horizontal with dropdown</h2>
+        <h2>Variation 2: Vertical with hover effect</h2>
         <nav class = "nav2">
             <ul>
-                <li>z</li>
+                <li><a href = "#">Home</a></li>
+                <li><a href = "#">About</a></li>
+                <li><a href = "#">Products</a></li>
             </ul>
+            <button class = "login-btn">Login</button> 
         </nav>
     </div>
 </body>
