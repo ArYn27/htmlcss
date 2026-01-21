@@ -1,0 +1,85 @@
+body,
+html {
+    background: linear-gradient(175deg , #040107 , #343535);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.space {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: scale(0.9);
+    transition: transform 0.5s ease-in-out;
+    height: 80%;
+}
+
+.space:hover {
+    transform: scale(1);
+}
+
+img {
+    height: 200px;
+}
+
+h2 {
+    font-family: "Special Gothic Expanded One" ;
+    margin-bottom: 0;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #343535;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.price {
+    font-family: "Bitcount Single";
+    margin-top: 3px;
+}
+
+.content {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+
+.login {
+    font-family: "Special Gothic Expanded One" ;
+    margin-top: 8px;
+    padding: 5px;
+    width: 210px;
+    border: none;
+    border-radius: 10px;
+    transform: scale(0.95);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+    transition: box-shadow 0.5s ease-in-out , transform 0.5s ease-in-out;
+}
+.add-to-cart {
+    font-family: "Special Gothic Expanded One";
+    width: 210px;
+    margin-top: 3px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    transform: scale(0.95);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+    transition: box-shadow 0.5s ease-in-out , transform 0.5s ease-in-out;
+}
+
+.login:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.4);
+}
+.add-to-cart:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.4);
+}
+.nike {
+    height: 100px;
+}
