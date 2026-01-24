@@ -13,7 +13,7 @@ html {
 
 .container {
     position: relative;
-    background: linear-gradient(135deg , #8a2be2 , #4169e1);
+    background: linear-gradient(135deg , #7224bb , #4169e1);
     display: flex;
     justify-content: center;
     align-items: center;
