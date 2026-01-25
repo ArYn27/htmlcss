@@ -5,12 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body class="bg-amber-200">
-  <div class ="h-0.5 w-0.5">
-    <h1 class="text-blue-500 text-3xl font-bold tracking-wider">
-    Aaryan
-  </h1>
+<body class="bg-gray-900 flex justify-center items-center min-h-screen">
+  <div class = "bg-gray-700 rounded-lg p-8 shadow-2xl max-w-sm w-full">
+    <h2 class="text-center text-3xl text-white mb-6 font-bold">Login</h2>
+    <form>
+      <div class="mb-4">
+      <label class="block text-sm font-medium text-gray-300 mb-2" for = "">Email</label>
+      <input class="bg-gray-600 text-white border-gray-400 px-3 py-2 w-full rounded-lg focus:outline-none focus:ring-2" type = "email" name = "" placeholder="Email" id = "">
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium text-gray-300 mb-2" for = "">Password</label>
+      <input class="bg-gray-600 text-white border-gray-400 px-3 py-2 w-full rounded-lg focus:outline-none focus:ring-2" type = "password" name = "" placeholder="Password" id = "">
+    </div>
+      <button class="w-full text-white bg-blue-600 mt-5 mb-6 p-3 rounded-lg shadow-2xl hover:cursor-pointer hover:shadow-3xl" type = "submit">Login</button>
+    </form>
   </div>
-  
+
 </body>
 </html>
