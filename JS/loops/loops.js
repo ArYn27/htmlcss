@@ -58,3 +58,48 @@ do{
 } while(tea !== "stop");
 
 console.log(teaCollection);
+
+/*
+    4. write a do while loop that adds numbers from 1 to 3 and stores the sum in a variable `total`.
+*/
+
+let total = 0;
+let count = 1;
+do{
+    total = total+count;
+    count++;
+} while(count <= 3);
+
+console.log(total);
+
+/*
+    5. write a `for` loop that multiplies each element in the array `[2,4,6]` by 2 and stores the results in a new array named `multipliedNumbers`
+*/
+
+
+let test = [2,4,6];
+let multipliedNumbers = [];
+
+for (let i = 0; i < test.length; i++) {
+    const element = test[i]*2;
+    multipliedNumbers.push(element);
+}
+
+console.log(multipliedNumbers);
+
+
+/*
+    6. write a `for` loop that lists all the cities in the array `[Paris , New York , Tokyo , London]`
+    and stores each city in a new array named `cityList`
+*/
+
+let text2 = ["Paris" , "New York" , "Tokyo" ,"London"];
+
+let cityList = [];
+
+for (let i = 0; i < text2.length; i++) {
+    const element = text2[i];
+    console.log(`${i}th city:- ${element}`);
+    cityList.push(element);
+}
+console.log(cityList);
