@@ -45,6 +45,7 @@ console.log(`array is :- ${a}`);
     3. write a do while loop that prompts a user to enter their favorite tea type until they enter "stop" . Store each tea type in an array named `teaCollection`.
 */
 
+//need to writ this line as node.js doesn't support prompt by default.
 const prompt = require("prompt-sync")();
 
 teaCollection = [];
