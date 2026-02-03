@@ -160,3 +160,39 @@ function flattenArray(arr) {
 
 let answer = removeDuplicates([1,2,2,4,4,5])
 console.log(answer);
+
+function sumOfN(n) {
+
+    return (n*(n+1))/2;
+}
+
+function printMultiplicationTable(n) {
+    let res = [];
+    for (let i = 1; i <= 10; i++) {
+        res.push(`${n} * ${i} = ${n*i}`)
+        
+    }
+    return res;
+}
+
+function countVowels(str) {
+    let vowels = ['a' , 'e' , 'i' , 'o' , 'u' , 'A' , 'E' , 'I' , 'O' , 'U'];
+    let count = 0;
+    for (let i = 0; i < str.length; i++) {
+        if(vowels.includes(str[i])){
+            count+=1;
+        }
+    }
+    return count;
+}
+
+let k = sumOfN(10)
+console.log(k);
+
+
+ let h = printMultiplicationTable(9);
+ console.log(h);
+  
+ let g = countVowels("Aaryan")
+ console.log(g);
+ 
