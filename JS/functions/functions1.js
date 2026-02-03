@@ -58,3 +58,105 @@ function createTeaMaker() {
 
 let res = createTeaMaker()("green tea");
 console.log(res);
+
+function stringToNumber(input) {
+    if(isNaN(Number(input))) return "Not a number!"
+    else{
+        return Number(input)
+    } 
+}
+
+let a52 = stringToNumber("abc")
+console.log(a52);
+
+function flipBoolean(input) {
+    if(input) return false;
+    else return true;
+}
+
+console.log(flipBoolean("a"));
+
+function whatAmI(input) {
+   if(typeof(input) == "number") return "I'm a number!"
+    return "I'm a string!"
+}
+
+console.log(whatAmI("hello"));
+
+function isItTruthy(input) {
+    if(input) return "It's truthy!"
+    return "It's falsey!"
+}
+
+console.log(isItTruthy(0));
+
+
+// Addition of two values
+function add() {
+    return a+b;
+}
+
+// Subtract small value from larger one
+function subtract() {
+    if(a > b) return a-b;
+    return b-a;
+}
+
+function multiply() {
+    return a*b;
+}
+
+// Divide larger value by small
+function divide() {
+    if(a > b) return a/b;
+    return b/a;
+}
+
+// Increase value of a by 1
+function increment() {
+    return a+1;
+}
+
+// Decrease value of b by 1
+function decrement() {
+    return b-1;
+}
+
+// Divide larger value by small to find the reminder
+function reminder() {
+    if(a > b) return a%b;
+    return b%a;
+}
+
+function filterNumbers(arr) {
+    
+    return arr.filter(item => typeof item === "number");
+}
+
+function reverseArray(arr) {
+    arr.reverse();
+    return arr;
+}
+
+function findMax(arr) {
+    let max = -1000000000000;
+    for (let i = 0; i < arr.length; i++) {
+        const element = arr[i];
+        if(element > max) max = element;
+        
+    }
+    return max;
+}
+
+function removeDuplicates(arr) {
+    arr = [... new Set(arr)]
+    return arr;
+}
+
+function flattenArray(arr) {
+
+    return arr.flat(Infinity);
+}
+
+let answer = removeDuplicates([1,2,2,4,4,5])
+console.log(answer);
