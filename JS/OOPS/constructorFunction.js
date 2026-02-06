@@ -1,3 +1,5 @@
+//how to create constructor functions ...
+
 function Person(name , age){
     this.name = name
     this.age = age
