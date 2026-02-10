@@ -34,3 +34,4 @@ rl.question("Enter your name: ", (answer) => {
 });
 
 
+const x = 5;
