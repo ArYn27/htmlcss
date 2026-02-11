@@ -26,3 +26,13 @@ document
         let paragraph = document.getElementById('myParagraph')
         paragraph.textContent = "this paragraph has been changed"
     });
+
+
+    //example 2
+
+    document.getElementById('highlightFirstCity')
+    .addEventListener('cllick' , function(){
+        let citiesList = document.getElementById("citiesList")
+        console.log(citiesList.firstElementChild);
+         
+    })
