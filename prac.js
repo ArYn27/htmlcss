@@ -1,4 +1,5 @@
-document.getElementById("btn").addEventListener('click' , function(){
+submitBtn = document.getElementById("btn")
+submitBtn.onclick = function(){
     let name = document.getElementById("name")
     let error = document.getElementById("error")
     if(!name.value){
@@ -13,7 +14,7 @@ document.getElementById("btn").addEventListener('click' , function(){
         error.style.fontFamily ="Arial"
         error.style.fontSize = "10px"
     }
-})
+}
 
 
 let obj = {
