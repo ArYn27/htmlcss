@@ -1,26 +1,20 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+  <title>practice</title>
 </head>
-<body class="bg-gray-900 flex justify-center items-center min-h-screen">
-  <div class = "bg-gray-700 rounded-lg p-8 shadow-2xl max-w-sm w-full">
-    <h2 class="text-center text-3xl text-white mb-6 font-bold">Login</h2>
-    <form>
-      <div class="mb-4">
-      <label class="block text-sm font-medium text-gray-300 mb-2" for = "">Email</label>
-      <input class="bg-gray-600 text-white border-gray-400 px-3 py-2 w-full rounded-lg focus:outline-none focus:ring-2" type = "email" name = "" placeholder="Email" id = "">
-    </div>
-
-    <div>
-      <label class="block text-sm font-medium text-gray-300 mb-2" for = "">Password</label>
-      <input class="bg-gray-600 text-white border-gray-400 px-3 py-2 w-full rounded-lg focus:outline-none focus:ring-2" type = "password" name = "" placeholder="Password" id = "">
-    </div>
-      <button class="w-full text-white bg-blue-600 mt-5 mb-6 p-3 rounded-lg shadow-2xl hover:cursor-pointer hover:shadow-3xl" type = "submit">Login</button>
-    </form>
-  </div>
-
+<body>
+  <form>
+    <h2>
+      student details 
+      <p>student name:</p>
+      <input id = name type = "text" required = "required">
+      <button id = "btn" type = "submit">submit</button>
+      <p id = "error"></p>
+    </h2>
+  </form>
+  <script src="./prac.js"></script>
 </body>
 </html>
