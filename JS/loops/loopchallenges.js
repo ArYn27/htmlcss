@@ -2,7 +2,6 @@
     write a for loop that loops through the array ["green tea" , "black tea" , "chai", "oolong tea"] and stops the loop when it finds chai
 */
 
-const { loadavg } = require("node:os");
 
 
 let a1 = ["green tea" , "black tea" , "chai" , "oolong tea"];
