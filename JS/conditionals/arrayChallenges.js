@@ -88,3 +88,5 @@ let menuLength = teaMenu.length;
 let cityBucketList = ["Kyoto", "London", "Cape Town", "Vancouver"];
 
 let isLondonInList = cityBucketList.includes("London");
+
+let y = 6;
