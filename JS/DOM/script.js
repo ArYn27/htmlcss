@@ -60,3 +60,20 @@ document
         let taskList= document.getElementById("taskList")
         taskList.lastElementChild.remove();
     })
+
+    //example 6
+    document.getElementById("clickMeButton").addEventListener(
+        "click" , function(){
+            alert("hihellohi")
+        }
+    )
+
+    //example 7
+    document.getElementById("teaList")
+    .addEventListener("click" , function(event){
+        //check whether only the text has been selected 
+        if(event.target && event.target.matches(".teaItem")){
+            alert("you selected: " + event.target.textContent)
+        }
+        
+    })
