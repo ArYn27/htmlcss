@@ -52,3 +52,27 @@ function Drink(name){
 
 let tea = new Drink("tea")
 let coffee = Drink("coffee")
+
+
+function Cat(type){
+	this.type = type
+	console.log(type)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
