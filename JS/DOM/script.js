@@ -20,12 +20,11 @@ console.log("hello from script");
     arrow functions.
 */
 
-document
-    .getElementById('changeTextButton')
+    document.getElementById('changeTextButton')
     .addEventListener('click' , function(){
         let paragraph = document.getElementById('myParagraph')
-        paragraph.textContent = "this paragraph has been changed"
-    });
+        paragraph.textContent = "this para has been changed."
+    })
 
 
     //example 2
